@@ -414,7 +414,7 @@ var MOBILE =[
           });
 
           Toast.fire({
-              type:'info',
+              icon:'info',
               title: 'Product already added to shopping cart'
           })
       }

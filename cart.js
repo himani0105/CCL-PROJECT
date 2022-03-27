@@ -1,14 +1,3 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyAv64R3Hk7IbutDPD78rt8OZglXPaI-abA",
-    authDomain: "ccl-project-3770e.firebaseapp.com",
-    projectId: "ccl-project-3770e",
-    storageBucket: "ccl-project-3770e.appspot.com",
-    messagingSenderId: "857935630313",
-    appId: "1:857935630313:web:d85bebddae1c16811c4578",
-    measurementId: "G-W2M6BYYTYE"
-  };
-
-  
 
 function total(){
     var productsLocal =JSON.parse(localStorage.getItem('cart'));
