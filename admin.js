@@ -1,3 +1,4 @@
+
 function format(d){
     return `<table>
     <tr>
@@ -38,7 +39,8 @@ function format(d){
     </tr>
     <tr>
     <td>Products:</td>
-    <td>${d.products.map(function(product){
+    <td>
+    ${d.products.map(function(product){
         console.log(d.products)
             return`<ul>
                 <li>Product: ${product.name}</li>
@@ -63,7 +65,7 @@ $(document).ready(function(){
                     "data":null,
                     "defaultContent":'',
                     "render": function(){
-                        return '<i style="hover:pointer" class="fa fa-plus-square" aria-hidden="true"></id>';
+                        return '<i style="hover:pointer" class="fa fa-plus-square" aria-hidden="true"></i>';
                     },
                     width:"15px"
                 },
@@ -99,14 +101,27 @@ $(document).ready(function(){
     },4000)
 });
 
+var firebaseConfig = {
+    apiKey: "AIzaSyAv64R3Hk7IbutDPD78rt8OZglXPaI-abA",
+    authDomain: "ccl-project-3770e.firebaseapp.com",
+    projectId: "ccl-project-3770e",
+    storageBucket: "ccl-project-3770e.appspot.com",
+    messagingSenderId: "857935630313",
+    appId: "1:857935630313:web:d85bebddae1c16811c4578",
+    measurementId: "G-W2M6BYYTYE"
+  };
 
+  firebase.initializeApp(firebaseConfig);
 
-var sales=[]
-firebaseConfig.firestore().collection("sales")
+  var sales=[]
+firebase.firestore().collection("sales")
 .onSnapshot(function(querySnapshot){
+    
     querySnapshot.forEach(function(doc){
         console.log(doc.data())
         sales.push(doc.data())
     })
     finaldata=sales
 });
+
+

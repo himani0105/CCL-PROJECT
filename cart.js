@@ -265,5 +265,5 @@ $(document).ready(() => {
                 clean();
             })
     });
-
+ 
 });

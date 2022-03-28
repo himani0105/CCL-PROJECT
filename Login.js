@@ -57,10 +57,11 @@ function login(){
     const password = document.getElementById("userPassword").value
     firebase.auth().signInWithEmailAndPassword(email, password).then(authUser => {
 
-        if(authUser.user.emailVerified){
+        if(authUser.user.email){
            
             console.log("Logged in")
             loadPage();
+            
         }else{
             
 
