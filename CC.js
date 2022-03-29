@@ -129,7 +129,7 @@ var MOBILE =[
              
              </a>
              <a id="${btn}alert" style="display: none" onclick="alertCart()" class="btn-floating halfway-fab waves-effect waves-light green">
-                 <i class="material-icons">Shopping_cart</i>
+                 <i class="material-icons">shopping_cart</i>
                  </a>
                </div>
                <div class="card-content">
@@ -156,7 +156,7 @@ var MOBILE =[
                  <div class="card-image">
                  <img src="${TABLET[con - 1].img}">
                  <a id="${btn}alert" onclick="alertCart()" class="btn-floating halfway-fab waves-effect waves-light green">
-                    <i class="material-icons">Shopping_cart</i>
+                    <i class="material-icons">shopping_cart</i>
                  </a>
                </div>
                <div class="card-content">
@@ -187,7 +187,7 @@ var MOBILE =[
              
              </a>
              <a id="${btn}alert" style="display: none" onclick="alertCart()" class="btn-floating halfway-fab waves-effect waves-light green">
-                 <i class="material-icons">Shopping_cart</i>
+                 <i class="material-icons">shopping_cart</i>
                  </a>
                </div>
                <div class="card-content">
@@ -215,7 +215,7 @@ var MOBILE =[
                  <div class="card-image">
                  <img src="${WATCH[con - 1].img}">
                  <a id="${btn}alert" onclick="alertCart()" class="btn-floating halfway-fab waves-effect waves-light green">
-                    <i class="material-icons">Shopping_cart</i>
+                    <i class="material-icons">shopping_cart</i>
                  </a>
                </div>
                <div class="card-content">
@@ -245,7 +245,7 @@ var MOBILE =[
              
              </a>
              <a id="${btn}alert" style="display: none" onclick="alertCart()" class="btn-floating halfway-fab waves-effect waves-light green">
-                 <i class="material-icons">Shopping_cart</i>
+                 <i class="material-icons">shopping_cart</i>
                  </a>
                </div>
                <div class="card-content">
@@ -277,7 +277,7 @@ var MOBILE =[
                  <div class="card-image">
                  <img src="${GalaxyBuds[con - 1].img}">
                  <a id="${btn}alert" onclick="alertCart()" class="btn-floating halfway-fab waves-effect waves-light green">
-                    <i class="material-icons">Shopping_cart</i>
+                    <i class="material-icons">shopping_cart</i>
                  </a>
                </div>
                <div class="card-content">
@@ -308,7 +308,7 @@ var MOBILE =[
              
              </a>
              <a id="${btn}alert" style="display: none" onclick="alertCart()" class="btn-floating halfway-fab waves-effect waves-light green">
-                 <i class="material-icons">Shopping_cart</i>
+                 <i class="material-icons">shopping_cart</i>
                  </a>
                </div>
                <div class="card-content">

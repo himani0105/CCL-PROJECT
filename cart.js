@@ -231,7 +231,10 @@ $(document).ready(() => {
     $('.modal').modal();
     var userName = document.getElementById('userName');
     var userEmail = document.getElementById('userEmail');
-    var userSelect = document.getElementById('userSelect');
+    var userAddress = document.getElementById('userAddress');
+    var userSelect=document.getElementById('userSelect');
+    var userPin =document.getElementById('userPin');
+    var userCCV=document.getElementById('userCCV')
     var d = new Date();
     var t = d.getTime();
     var order = t - 3000;
@@ -245,7 +248,10 @@ $(document).ready(() => {
             userOrder: order,
             userName: userName.value,
             userEmail: userEmail.value,
+            userAddress:userAddress.value,
             payment: userSelect.value,
+            userPin:userPin.value,
+            userCCV:userCCV.value,
             userDate: d.getDate() + "/" + (d.getMonth() + 1) + "/" + d.getFullYear(),
             hour: d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds(),
             userYear: d.getFullYear(),

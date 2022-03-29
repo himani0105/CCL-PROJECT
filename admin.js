@@ -10,6 +10,10 @@ function format(d){
         <td> ${d.userEmail}</td>
     </tr>
     <tr>
+        <td>Address:</td>
+        <td> ${d.userAddress}</td>
+    </tr>
+    <tr>
     <td>Year:</td>
     <td>${d.userYear}</td>
     </tr>
